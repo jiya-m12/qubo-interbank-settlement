@@ -1,0 +1,23 @@
+# Gridlock Scenario: 6 banks, 9 payment arcs, 25% liquidity
+# Two interlocking cycles with cross-links
+
+# Payments
+arc_id,debtor_bank,creditor_bank,value
+0,0,1,8
+1,1,2,7
+2,2,0,9
+3,2,3,6
+4,3,4,5
+5,4,5,7
+6,5,2,8
+7,1,3,4
+8,4,0,3
+
+# Institutions
+node_id,initial_liquidity
+0,2
+1,3
+2,4
+3,2
+4,3
+5,2
