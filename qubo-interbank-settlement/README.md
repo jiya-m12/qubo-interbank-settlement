@@ -12,7 +12,7 @@ For the problem background, see Section 1 of the notebook.
 | File | Description |
 |------|-------------|
 | `qubo_interbank_settlement.ipynb` | Main notebook — QUBO formulation, verification, baselines, IQPMS investigation and implementation. All outputs embedded. |
-| `report.pdf` | 2-page technical report summarising problem, methods, results. |
+| `report.pdf` | 3-page technical report summarising problem, methods, results. |
 | `iqpms_qmatrix.py` | Supplementary: full IQPMS Q-matrix implementation with detailed polynomial verification (~1100 lines). Referenced in notebook Section 10. |
 | `dataset_exp1.csv` | Experiment 1: 5 banks, 8 payments, 30% liquidity. |
 | `dataset_exp2.csv` | Experiment 2: 6 banks, 12 payments, 35% liquidity. |
