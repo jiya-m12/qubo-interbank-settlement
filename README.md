@@ -1,7 +1,6 @@
 # Qubit-Efficient QUBO for Interbank Payment Settlement and Counterparty Netting
 
-*Use case originally posed by Quantum Dice's Trinity 2026 Challenge; this implementation
-and the qubit/QUBO approach are my own independent work.*
+*Use case originally posed by Quantum Dice's Trinity 2026 Challenge, a probabilistic-computing competition; this qubit/QUBO formulation and implementation are my own independent work.*
 
 Encodes the interbank payment settlement and counterparty netting problem as a QUBO (Quadratic Unconstrained Binary Optimisation) and implements the IQP + Master-Satellite (IQPMS) decomposition from De Santis et al. (2026) to reduce slack variable overhead. The IQPMS investigation focuses on gridlock scenarios, where the IN/OUT constraint holds and achieves **84% fewer slack variables** (4 vs 25) compared to the standard squared-penalty encoding, verified by exhaustive enumeration.
 
