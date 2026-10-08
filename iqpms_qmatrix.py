@@ -403,7 +403,7 @@ def build_inout_master(n_in, n_out):
     Build IN/OUT penalty polynomial.
 
     M=2,3: Paper's closed-form (Eqs. 52-53), verified correct.
-    M>=4: Numerical IQP solver (paper's Eqs. 54-55 are buggy).
+    M>=4: Numerical IQP solver.
 
     Local ordering: [incoming_0,...,incoming_{n_in-1}, outgoing_0,...,outgoing_{n_out-1}]
 
